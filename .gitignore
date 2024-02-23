@@ -1,0 +1,25 @@
+# Node modules
+/node_modules
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Built output
+/build
+
+# Dependency directories
+/npm-debug.log
+/.npm
+
+# IDE files
+.vscode
+.idea
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
