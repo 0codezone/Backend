@@ -3,7 +3,8 @@
 import dotenv from "dotenv";
 import connectDB from "./db/index.js";
 
-dotenv.config({ path: "./env" });
+dotenv.config({ path: "../.env" });
+import { app } from "./app.js";
 
 //database connection
 connectDB()
@@ -20,6 +21,7 @@ connectDB()
   .catch((err) => {
     console.log("ERROR: ", err);
   });
+
 // ------------------ METHOD 1------------------->
 /*
 import mongoose from "mongoose";
